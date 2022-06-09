@@ -1,4 +1,4 @@
-# Example Code for Using the SAT Encodings of in BroT
+# Example Code for Using the SAT Encodings of BroT
 
 This project consists just of a single [Main][main] file with some example code for encoding propositional _atmost_ and _atleast_ constraints with the [FeatureIDE][fide] library.
 
