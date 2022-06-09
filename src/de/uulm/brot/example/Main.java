@@ -1,4 +1,4 @@
-package de.uulm.brottest;
+package de.uulm.brot.example;
 
 import java.util.List;
 import java.util.stream.Stream;
@@ -21,7 +21,7 @@ import de.ovgu.featureide.fm.core.base.IFeatureModel;
 public class Main {
 	public static void main(String[] args) {
 		final List<Literal> variables = Stream.of(
-				"A", "B", "C", "D", "E", "F", "G", "H", "I", "K"
+				"A", "B", "C", "D", "E", "F", "G", "H", "I", "J"
 				).map(varName -> new Literal(varName)).toList();
 
 		final int numberOfVariables = variables.size();
