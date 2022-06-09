@@ -47,7 +47,11 @@ public class Main {
 		// Generate a formula that encodes atMost(variables, numberOfVariablesToSelectAtMost).
 		{
 			encoding.setVariableFactory(new DefaultVariableFactory()); // factory for generatng variables
-			final List<AnnotatedNode> formulaWithMetadata = encoding.encodeAtMost(variables, numberOfVariablesToSelectAtMost, encodingOptions);
+			final List<AnnotatedNode> formulaWithMetadata =
+					encoding.encodeAtMost(variables, numberOfVariablesToSelectAtMost, encodingOptions);
+					// at least is also possible
+					// encoding.encodeAtLeast(variables, numberOfVariablesToSelectAtMost, encodingOptions);
+			
 			final Node atMost = new And(formulaWithMetadata.stream().map(a -> a.node).toArray());
 		}
 
