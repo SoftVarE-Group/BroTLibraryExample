@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-16">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/AtMostSatEncodings.jar"/>
+	<classpathentry kind="lib" path="libs/de.ovgu.featureide.lib.fm-v3.5.3.jar"/>
+	<classpathentry kind="lib" path="libs/org.sat4j.core.jar"/>
+	<classpathentry kind="lib" path="libs/org.sat4j.pb.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
